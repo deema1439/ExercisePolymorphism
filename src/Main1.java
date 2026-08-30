@@ -51,9 +51,9 @@ public class Main1 {
                   System.out.println("Enter the rentel days: ");
                   int days=s.nextInt();
                   System.out.println("                                                               ");
-                  Car c=new Car(model,days);
-                  c.displayDetails();
-                  rentedVehicles.add(c);
+                  Vehicle v =new Car(model,days);
+                  v.displayDetails();
+                  rentedVehicles.add(v);
                   System.out.println("                                                               ");
                   break;
               case 2:
@@ -65,10 +65,10 @@ public class Main1 {
                   System.out.println("Enter your rental houre: ");
                   int houre=s.nextInt();
                   System.out.println("                                                               ");
-                  Bike b=new Bike(brand,houre);
-                  b.displayDetails();
+                  Vehicle v2 =new Bike(brand,houre);
+                  v2.displayDetails();
                   System.out.println("                                                               ");
-                  rentedVehicles.add(b);
+                  rentedVehicles.add(v2);
                   break;
               case 3:
                   System.out.println("here is our Truck type: ");
@@ -79,10 +79,10 @@ public class Main1 {
                   System.out.println("Enter the weeks: ");
                   int weeks=s.nextInt();
                   System.out.println("                                                               ");
-                  Truck t=new Truck(typee,weeks);
-                  t.displayDetails();
+                  Vehicle v3 =new Truck(typee,weeks);
+                  v3.displayDetails();
                   System.out.println("                                                               ");
-                  rentedVehicles.add(t);
+                  rentedVehicles.add(v3);
                   break;
               case 4:
                   System.out.println("the Rented Vhichels: ");
